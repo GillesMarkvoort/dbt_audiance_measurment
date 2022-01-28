@@ -1,7 +1,7 @@
 # Data Minded Academy - Containerization with Docker
 ## Exercises Repository
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/datamindedbe/dbt_audiance_measurment.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jgrujic/dbt_audiance_measurment.git)
 
 This repository is hosting the exercises provided to students in the context of the `Containerization with Docker` course of the Data Minded Academy.
 
