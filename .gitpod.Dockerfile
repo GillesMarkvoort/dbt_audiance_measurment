@@ -7,7 +7,7 @@ ENV TRIGGER_REBUILD 0
 USER root
 
 RUN apt-get update && \
-    apt-get install -y wget git tree ssh nano sudo nmap man tmux curl && \
+    apt-get install -y wget git tree ssh nano sudo nmap man tmux curl joe && \
     apt-get clean && \
     rm -rf /var/cache/apt/* && \
     rm -rf /var/lib/apt/lists/* && \
@@ -15,6 +15,6 @@ RUN apt-get update && \
     pip install dbt-snowflake
 
 # Copy exercices content into the image
-COPY --chown=gitpod content/ /home/gitpod/dbt_audiance_measurment
+# COPY --chown=gitpod content/ /home/gitpod/dbt_audiance_measurment
 
 USER gitpod
