@@ -1,0 +1,13 @@
+audiance_measurment:
+  outputs:
+    dev:
+      account: yw41113.eu-west-1
+      database: WINTERSCHOOL
+      password: DataMindedRocks!DataMindedRocks!
+      role: accountadmin
+      schema: dbt_sas
+      threads: 1
+      type: snowflake
+      user: sas
+      warehouse: COMPUTE_WH
+  target: dev
