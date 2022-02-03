@@ -20,6 +20,7 @@ do
 done
 # End reading password
 
+mkdir /home/gitpod/.dbt/
 echo "audiance_measurment:
   outputs:
     dev:
@@ -32,5 +33,5 @@ echo "audiance_measurment:
       type: snowflake
       user: $user
       warehouse: COMPUTE_WH
-  target: dev" > /home/gitpod/.dbt/profile.yml
+  target: dev" > /home/gitpod/.dbt/profiles.yml
 
