@@ -27,7 +27,7 @@ echo "audiance_measurment:
       account: yw41113.eu-west-1
       database: WINTERSCHOOL
       password: $password
-      role: accountadmin
+      role: student
       schema: $schema
       threads: 1
       type: snowflake
