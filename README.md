@@ -1,4 +1,4 @@
-# Data Minded Academy - Containerization with Docker
+# Data Minded Academy - Relational Databases - DBT exercise 
 ## Exercises Repository
 
 [![Open in
