@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:latest-2022-01-21-dazzle-v1
+FROM gitpod/workspace-full
 
 # This env var is used to force the 
 # rebuild of the Gitpod environment when needed
