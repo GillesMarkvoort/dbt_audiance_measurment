@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-base
 
 # This env var is used to force the 
 # rebuild of the Gitpod environment when needed
