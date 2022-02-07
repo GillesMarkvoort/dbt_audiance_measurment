@@ -8,12 +8,17 @@ Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https:/
 This repository is hosting the exercises provided to students in the context of the `Relational DataBases` course of the Data Minded Academy.
 This specific excersise is focused on dbt.
 
-To start run the script ./create_profiles.sh which will generate connection
-to Snowflake DataWarehouse
+To start click on "Open in Gitpod" button
+
+Once it is started, run the script ./create_profiles.sh which will generate connection
+with Snowflake DataWarehouse. DBT is already installed there, so everything
+is ready for you first dbt projects.
 
 Enter the folder "audiance_measurment" explore the files in folders:
 - models
 - tests
+
+
 And file:
 - dbt_profiles.yml
 
