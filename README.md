@@ -1,11 +1,30 @@
-# Data Minded Academy - Relational Databases - DBT exercise 
-## Exercises Repository
+# Data Minded Academy - Relational Databases 
+## DBT exercise 
+
 
 [![Open in
 Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jgrujic/dbt_audiance_measurment.git)
 
 This repository is hosting the exercises provided to students in the context of the `Relational DataBases` course of the Data Minded Academy.
 This specific excersise is focused on dbt.
+
+To start run the script ./create_profiles.sh which will generate connection
+to Snowflake DataWarehouse
+
+Enter the folder "audiance_measurment" explore the files in folders:
+- models
+- tests
+And file:
+- dbt_profiles.yml
+
+Try running the following commands:
+- dbt run (See the views created at DWH)
+- dbt test
+
+
+Afterwards start your own dbt project by making a new folder and running
+inside it
+- dbt init
 
 Welcome to your new dbt project!
 
