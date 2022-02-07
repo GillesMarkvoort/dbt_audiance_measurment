@@ -1,3 +1,6 @@
+
+{{ config(materialized='table') }}
+
 SELECT
     program,
     '{{ var("date") }}' as date,
